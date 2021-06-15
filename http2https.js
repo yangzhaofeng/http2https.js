@@ -1,1 +1,3 @@
-location.replace(location.protocol.replace('http:','https:'))
+if (location.protocol == 'http:') {
+    location.protocol = 'https:';
+}
